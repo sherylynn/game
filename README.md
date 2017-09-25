@@ -1,0 +1,2 @@
+# game
+rmmv game rpgmaker
