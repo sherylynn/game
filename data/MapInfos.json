@@ -1,6 +1,6 @@
 [
 null,
 {"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":409,"scrollY":312},
-null,
+{"id":2,"expanded":false,"name":"卧室","order":3,"parentId":0,"scrollX":409,"scrollY":251.5},
 {"id":3,"expanded":false,"name":"标题1","order":2,"parentId":0,"scrollX":409,"scrollY":320}
 ]
