@@ -5,7 +5,7 @@ null,
 {"id":3,"flags":[16],"mode":1,"name":"image1","note":"","tilesetNames":["","","","","Image1","","","",""]},
 {"id":4,"flags":[16],"mode":1,"name":"image1改","note":"","tilesetNames":["","","","","调整后Image1","","","",""]},
 {"id":5,"flags":[16],"mode":1,"name":"image2","note":"","tilesetNames":["","","","","Image2","","","",""]},
-{"id":6,"flags":[16],"mode":1,"name":"image2改","note":"","tilesetNames":["","","","","","","","",""]},
+{"id":6,"flags":[16],"mode":1,"name":"image2改","note":"","tilesetNames":["","","","","调整后Image2","","","",""]},
 {"id":7,"flags":[16],"mode":1,"name":"bedroom","note":"","tilesetNames":["","","","","bedroom","","","",""]},
 {"id":8,"flags":[16],"mode":1,"name":"bedroom改","note":"","tilesetNames":["","","","","调整后bedroom","","","",""]}
 ]
