@@ -1,0 +1,24 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "p project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://111.231.90.43:3000/p/game.git"
+  },
+  "keywords": [
+    "p",
+    "project",
+    "game"
+  ],
+  "author": "sherylynn yinnull",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "parcel-bundler": "^1.4.1"
+  }
+}
