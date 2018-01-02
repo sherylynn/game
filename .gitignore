@@ -1,2 +1,72 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IJ
+#
+.idea
+.gradle
+local.properties
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# 前端
+dist
+
+# server
+node_modules/
+pouch__all_dbs__/
+_replicator/
+_users/
+shit*
+log.txt
+
+# vscode
+.vscode
+
+# apk
+android/gradle.properties
+android/app/build
+android/app/meihu.jks
+.update
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
 # plugins
 js/plugins/*.bundle.js
+
+# game/
+
+# cordova
+android/build
+android/.gradle
+android/.idea
+android/local.properties
+android/assets/
