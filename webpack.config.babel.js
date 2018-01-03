@@ -10,6 +10,7 @@ export default {
   devtool : 'inline-source-map',
   devServer : {
     contentBase: path.join(__dirname, '/'),
+    host: '0.0.0.0',
     hot: true,
     publicPath:'/js/plugins/',
     //需要设置一下位置
