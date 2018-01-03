@@ -8,10 +8,10 @@ clone:
 pipeline:
   ssh:
     image: appleboy/drone-ssh
-    host: tx.18e.pub
-    username: ubunru
+    environment:
+      - PLUGIN_HOST=tx.18e.pub
+      - PLUGIN_USERNAME=ubuntu
     secrets: [ ssh_key ]
-    port: 22
     script:
       - cd plugins4rmmv/game
       - git checkout master

@@ -3,11 +3,11 @@ drone secret add \
     --name=ssh_key \
     --value="$(sudo cat ${HOME}/.ssh/id_rsa)" \
     --image=appleboy/drone-ssh
-#drone secret add \
-#    --repository=p/game \
-#    --name=ssh_key \
-#    --value=@$HOME/.ssh/id_rsa\
-#    --image=appleboy/drone-ssh
+drone secret add \
+    --repository=p/game \
+    --name=ssh_key \
+    --value=@/home/ubuntu/.ssh/id_rsa\
+    --image=appleboy/drone-ssh
 # 直接指定@似乎不生效？
 #again again
 #设置文件权限400
