@@ -1,15 +1,12 @@
-pipeline:
-  ssh:
-    image: appleboy/drone-ssh
-    host: tx.18e.pub
-    username: ubunru
-    secrets: [ ssh_key ]
-    port: 22
-    script:
-      - cd plugins4rmmv/game
-      - git checkout master
-      - git pull
-      - cd ..
-      - git status
-      - git commit -m game_update -a
-      - git push
+clone:
+  default:
+    image: alpine
+    commands:
+      - echo $DRONE_REPO_PRIVATE
+      - cat /root/.netrc
+
+pipeine:
+  build:
+    image: alpine
+    commands:
+      - echo hello
