@@ -10,7 +10,7 @@ pipeline:
     host: 111.231.90.43
     username: ubunru
     volumes:
-      - $HOME/drone_rsa:/root/ssh/drone_rsa
+      - /home/ubuntu/drone_rsa:/root/ssh/drone_rsa
     key_path: /root/ssh/drone_rsa
     port: 22
     script:
