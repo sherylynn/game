@@ -6,5 +6,5 @@
 drone secret add \
     --repository=p/game \
     --name=ssh_key \
-    --value=@"$($HOME)"/.ssh/id_rsa\
+    --value=@$HOME/.ssh/id_rsa\
     --image=appleboy/drone-ssh
