@@ -7,7 +7,7 @@ clone:
 pipeline:
   ssh:
     image: appleboy/drone-ssh
-    host: http://111.231.90.43/
+    host: 111.231.90.43
     username: ubunru
     secrets: [ ssh_key ]
     port: 22
