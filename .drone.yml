@@ -1,17 +1,16 @@
 clone:
-  build:
+  default:
     image: alpine
     commands:
-      - echo hello
+      - echo $DRONE_REPO_PRIVATE
+      - cat /root/.netrc
 
 pipeline:
   ssh:
     image: appleboy/drone-ssh
-    host: 111.231.90.43
+    host: tx.18e.pub
     username: ubunru
-    volumes:
-      - /root/.ssh/id_rsa:/root/ssh/drone_rsa
-    key_path: /root/ssh/drone_rsa
+    secrets: [ ssh_key ]
     port: 22
     script:
       - cd plugins4rmmv/game
@@ -21,6 +20,3 @@ pipeline:
       - git status
       - git commit -m game_update -a
       - git push
-
-
-
