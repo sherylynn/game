@@ -7,9 +7,9 @@ clone:
 pipeline:
   ssh:
     image: appleboy/drone-ssh
-    host: tx.18e.pub
+    host: http://111.231.90.43/
     username: ubunru
-    secrets: [ ssh_key ]
+    secret: [ ssh_key ]
     port: 22
     script:
       - cd plugins4rmmv/game
