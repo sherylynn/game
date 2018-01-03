@@ -5,7 +5,7 @@ clone:
       - echo $DRONE_REPO_PRIVATE
       - cat /root/.netrc
 
-pipeine:
+pipeline:
   build:
     image: alpine
     commands:
