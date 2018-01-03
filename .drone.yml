@@ -9,7 +9,9 @@ pipeline:
     image: appleboy/drone-ssh
     host: 111.231.90.43
     username: ubunru
-    secrets: [ ssh_key ]
+    volumes:
+      - $HOME/drone_rsa:/root/ssh/drone_rsa
+    key_path: /root/ssh/drone_rsa
     port: 22
     script:
       - cd plugins4rmmv/game
