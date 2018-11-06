@@ -6,11 +6,11 @@ null,
 {"id":4,"expanded":false,"name":"浴室","order":4,"parentId":2,"scrollX":775,"scrollY":471},
 {"id":5,"expanded":true,"name":"客厅","order":6,"parentId":0,"scrollX":989,"scrollY":463},
 {"id":6,"expanded":true,"name":"书房","order":11,"parentId":0,"scrollX":988.909090909091,"scrollY":406.3636363636364},
-{"id":7,"expanded":false,"name":"客厅前走廊","order":7,"parentId":5,"scrollX":988.909090909091,"scrollY":406.3636363636364},
-{"id":8,"expanded":false,"name":"客厅后走廊","order":8,"parentId":5,"scrollX":580.9090909090909,"scrollY":406.3636363636364},
-{"id":9,"expanded":false,"name":"书房到卧室走廊","order":12,"parentId":6,"scrollX":774,"scrollY":347.4545454545455},
+{"id":7,"expanded":false,"name":"客厅前走廊","order":7,"parentId":5,"scrollX":989,"scrollY":463},
+{"id":8,"expanded":false,"name":"客厅后走廊","order":8,"parentId":5,"scrollX":775,"scrollY":471},
+{"id":9,"expanded":false,"name":"书房到卧室走廊","order":12,"parentId":6,"scrollX":775,"scrollY":463},
 {"id":10,"expanded":false,"name":"书库","order":9,"parentId":5,"scrollX":775,"scrollY":471},
-{"id":11,"expanded":false,"name":"厨房","order":10,"parentId":5,"scrollX":489.2727272727273,"scrollY":358.3636363636364},
+{"id":11,"expanded":false,"name":"厨房","order":10,"parentId":5,"scrollX":775,"scrollY":471},
 {"id":12,"expanded":false,"name":"双人卧室","order":5,"parentId":2,"scrollX":857,"scrollY":463},
-{"id":13,"expanded":false,"name":"Vimer","order":13,"parentId":0,"scrollX":424.5,"scrollY":380}
+{"id":13,"expanded":false,"name":"Vimer","order":13,"parentId":0,"scrollX":775,"scrollY":471}
 ]
