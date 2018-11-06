@@ -9,7 +9,7 @@ null,
 {"id":7,"expanded":false,"name":"客厅前走廊","order":7,"parentId":5,"scrollX":989,"scrollY":463},
 {"id":8,"expanded":false,"name":"客厅后走廊","order":8,"parentId":5,"scrollX":775,"scrollY":471},
 {"id":9,"expanded":false,"name":"书房到卧室走廊","order":12,"parentId":6,"scrollX":775,"scrollY":463},
-{"id":10,"expanded":false,"name":"书库","order":9,"parentId":5,"scrollX":775,"scrollY":471},
+{"id":10,"expanded":false,"name":"书库","order":9,"parentId":5,"scrollX":597,"scrollY":462.5},
 {"id":11,"expanded":false,"name":"厨房","order":10,"parentId":5,"scrollX":775,"scrollY":471},
 {"id":12,"expanded":false,"name":"双人卧室","order":5,"parentId":2,"scrollX":857,"scrollY":463},
 {"id":13,"expanded":false,"name":"Vimer","order":13,"parentId":0,"scrollX":775,"scrollY":471}
